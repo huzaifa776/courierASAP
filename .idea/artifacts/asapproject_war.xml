@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="asapproject:war">
+    <output-path>$PROJECT_DIR$/courierASAPproject/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>asapproject</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="asapproject.war">
+      <element id="artifact" artifact-name="asapproject:war exploded" />
+    </root>
+  </artifact>
+</component>

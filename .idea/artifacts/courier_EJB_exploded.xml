@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="courier:EJB exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/courier_EJB_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="courier/ejb/EJB" />
+      <element id="module-output" name="courier" />
+    </root>
+  </artifact>
+</component>

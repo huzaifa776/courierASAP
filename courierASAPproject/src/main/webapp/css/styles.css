@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.styleContain {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+header {
+    background: red;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+header li {
+    /* float: left; */
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #navigationPane {
+    float: left;
+}
+
+header #navigationPane h1 {
+    margin: 0;
+
+}
+
+header nav {
+    float: right;
+}
+
+body nav {
+    background: red;
+}
+
+header .currentHighlight a {
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+#bookingConfirm{
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+
+
+}
+
+#slider {
+    min-height: 400px;
+    background: url(courier.jpg) no-repeat -200px -100px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#slider h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    background: red;
+
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+.formdesign {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 2px solid black;
+    font-size: 15px;
+
+}
+
+label {
+    display: block;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: .5rem;
+}
+
+#createOrderBtn {
+    width: 100%;
+    padding: 2rem;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    margin: 2rem auto;
+    font-size: 25px;
+
+}
+
